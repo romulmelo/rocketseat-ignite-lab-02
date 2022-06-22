@@ -7,6 +7,7 @@ import { client } from "./lib/apollo"
 import App from "./App"
 
 import "virtual:windi.css"
+import "@/css/global.css"
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
